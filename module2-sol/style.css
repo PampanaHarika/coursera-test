@@ -1,0 +1,41 @@
+.menu h1{
+    text-align: center;
+    text-decoration: solid;
+}
+
+.boxes{
+    display: inline-block;
+    margin: 5%;
+}
+
+.boxes div{
+    width: 30%;
+    margin: 1%;
+    display: inline-block;
+    background-color: rgb(197, 211, 219);
+    border: solid black;
+}
+
+.boxes h3{
+    margin: 0;
+    text-overflow: inherit;
+    margin-left: 50%;
+    text-align: right;
+    padding: 5%;
+    border: 1px solid black;
+}
+
+.lbox h3{
+    background-color: rgb(240, 163, 176);
+}
+.mbox h3{
+    background-color: rgb(108, 115, 194);
+}
+.rbox h3{
+    background-color: rgb(212, 212, 91);
+}
+
+.boxes p{
+    text-align: center;
+    padding: 2%;
+}
